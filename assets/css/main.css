@@ -265,6 +265,7 @@ section {
   .header .btn-getstarted,
   .header .btn-getstarted:focus {
    margin-right: 50px;
+   width: 60%;
   }
 }
 
@@ -3111,9 +3112,12 @@ section {
 18%,20%,38%,40%,58%,60%{transform:rotate(-24deg)}
 100%,75%{transform:rotate(0)}
 }
-@media only screen and (max-width:990px){.main-timeline12 .timeline{margin-bottom:20px}
+@media(max-width:990px)
+{.main-timeline12 .timeline{margin-bottom:20px}
+
 }
-@media only screen and (max-width:767px){.main-timeline12 .timeline-icon{padding-top:0}
+@media(max-width:767px)
+{.main-timeline12 .timeline-icon{padding-top:0}
 .main-timeline12 .timeline:nth-child(2n) .timeline-icon{padding-bottom:0}
 .main-timeline12 .border{margin-bottom:10px}
 .main-timeline12 .timeline:nth-child(2n) .border{margin:10px 0 0}
